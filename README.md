@@ -1,28 +1,93 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+<!DOCTYPE html>
+<html>
+<head>
+  </head>
+<body>
+ <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  
+  
+  <h1>Product Recommendation System</h1>
 
-# Flask + Vercel
+  <h2>Overview</h2>
+  <p>
+    The recommendation system uses a dataset consisting of user ratings for different products. It calculates the similarity between products using collaborative filtering and recommends similar products to users based on their preferences.
+  </p>
 
-This example shows how to use Flask 3 on Vercel with Serverless Functions using the [Python Runtime](https://vercel.com/docs/concepts/functions/serverless-functions/runtimes/python).
+  <h2>Components</h2>
+  <ul>
+    <li>Flask: A micro web framework used to build the web application.</li>
+    <li>Pandas: A data manipulation library used for data preprocessing and analysis.</li>
+    <li>NumPy: A library used for mathematical operations on arrays.</li>
+    <li>SciPy: A library used for scientific computing and similarity calculations.</li>
+    <li>Bootstrap: A CSS framework used for styling the web pages.</li>
+  </ul>
 
-## Demo
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Install the required dependencies listed in the <code>requirements.txt</code> file.</li>
+    <li>Run the Flask application using the command <code>python app.py</code>.</li>
+    <li>Access the web application by opening the provided URL in a web browser.</li>
+  </ol>
 
-https://flask-python-template.vercel.app/
+  <h2>Usage</h2>
+  <ol>
+    <li>Login to the system using your username and password.</li>
+    <li>Enter a product name in the search bar to view the details of the selected product.</li>
+    <li>The system will recommend similar products based on the selected product.</li>
+    <li>Click on the recommended products to view their details.</li>
+  </ol>
 
-## How it Works
+  <h2>Dataset</h2>
+  <p>
+    The recommendation system uses a dataset containing user ratings and product information. The dataset is preprocessed to handle missing values and create a matrix representation of the ratings.
+  </p>
 
-This example uses the Web Server Gateway Interface (WSGI) with Flask to enable handling requests on Vercel with Serverless Functions.
+  <h2>Collaborative Filtering</h2>
+  <p>
+    Collaborative filtering is used to calculate the similarity between products. It identifies similar users based on their purchase history and recommends products based on their preferences.
+  </p>
 
-## Running Locally
+  <h2>Contributing</h2>
+  <p>
+    Contributions to the recommendation system are welcome. If you find any issues or have suggestions for improvements, please submit a pull request or open an issue.
+  </p>
+  <h2>License</h2>
 
-```bash
-npm i -g vercel
-vercel dev
-```
+<p>The recommendation system is released under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. You are welcome to use, modify, and distribute this codebase as per the terms of the license.</p>
 
-Your Flask application is now available at `http://localhost:3000`.
+<h2>Acknowledgements</h2>
 
-## One-Click Deploy
+<p>We would like to thank the creators and contributors of the following libraries and frameworks used in this project:</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+<ul>
+  <li>Flask</li>
+  <li>Pandas</li>
+  <li>NumPy</li>
+  <li>SciPy</li>
+  <li>Bootstrap</li>
+  <li>surprise</li>
+</ul>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
+<h2>Contact</h2>
+
+<p>For any inquiries or questions, please contact <a href="mailto:sairammadala7101@gmail.com">sairammadala7101@gmail.com</a>.</p>
+Feel free to use this HTML code and modify it according to your needs.
+
+
+
+
+
+
+
+  
+</body>
+</html>
