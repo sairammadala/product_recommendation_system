@@ -1,0 +1,4 @@
+userID,username,password,categories
+A,new_user_1,pswd,Electronics
+B,sairam,pswd,Electronics|Cables&Accessories
+C,oops,oops,Electronics|Cables&Accessories
